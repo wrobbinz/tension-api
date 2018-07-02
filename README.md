@@ -52,9 +52,15 @@ $ psql postgres
 $ npm start
 ```
 
-### Read API Docs
+### Explore API
 
-Open [http://0.0.0.0:4000/api](http://0.0.0.0:4000/api) (assuming you used port 4000 in your .env file) in a web browser for API documentation.
+#### API Docs
+
+Open [http://0.0.0.0:4000/documentation](http://0.0.0.0:4000/documentation) (assuming you used port 4000 in your .env file) in a web browser for API documentation.
+
+#### GraphiQl
+
+Open [http://0.0.0.0:4000/graphiql](http://0.0.0.0:4000/graphiql) to visually experiment with graphql.
 
 ## Commands
 

@@ -20,7 +20,6 @@ module.exports = {
             version: Package.version,
           },
           basePath: '/api/v0',
-          documentationPath: '/api',
         },
       },
     ]);
