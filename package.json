@@ -36,6 +36,7 @@
     "jsonwebtoken": "^8.2.0",
     "knex": "0.14.x",
     "objection": "1.0.x",
+    "objection-graphql": "^0.4.2",
     "pg": "^7.4.1",
     "schwifty": "4.0.x",
     "secure-password": "^3.0.0",
