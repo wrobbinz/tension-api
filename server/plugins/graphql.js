@@ -33,6 +33,9 @@ module.exports = {
         graphiqlOptions: {
           endpointURL: '/graphql',
         },
+        route: {
+          cors: true,
+        },
       },
     });
   },
