@@ -17,7 +17,8 @@
     "knex": "knex",
     "start": "npx nodemon server",
     "test": "NODE_ENV=test npm run knex migrate:rollback; lab -a code -L -t 96 -I '__core-js_shared__' -L",
-    "lint": "npx eslint ."
+    "lint": "npx eslint .",
+    "reset": "npm run knex migrate:rollback;npm run knex migrate:latest"
   },
   "dependencies": {
     "apollo-server-hapi": "^1.3.6",
